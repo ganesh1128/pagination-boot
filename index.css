@@ -1,0 +1,6 @@
+@media screen and (max-width: 300px) {
+.html{
+        -webkit-text-size-adjust: 300%;
+    }
+
+}
