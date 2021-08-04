@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.0/bootstrap-table.min.css"
+    />
+    <link
+      href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" media="all" href="cssbasic.css" />
+    <title>PAGINATION</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <table
+      id="table"
+      data-show-header="true"
+      data-pagination="true"
+      data-id-field="name"
+      data-page-list="[5, 10, 25, 50, 100, ALL]"
+      data-page-size="10"
+    >
+      <thead>
+        <tr>
+          <th data-field="name">Name</th>
+          <th data-field="id">Id</th>
+          <th data-field="email">Email</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.0/bootstrap-table.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
